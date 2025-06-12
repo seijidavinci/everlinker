@@ -25,7 +25,7 @@ export default function StatusPage() {
     }
 
     if (!surname.trim()) {
-      setError("Please enter your surname")
+      setError("Please enter your name")
       return
     }
 
@@ -38,7 +38,7 @@ export default function StatusPage() {
       if (result.success && result.data) {
         setApplicationData(result.data)
       } else {
-        setError(result.error || "Application not found or surname doesn't match")
+        setError(result.error || "Application not found or name doesn't match")
         setApplicationData(null)
       }
     } catch (error) {
@@ -159,12 +159,12 @@ export default function StatusPage() {
                   />
                 </div>
                 <div>
-                  <label htmlFor="surname" className="block text-sm font-medium mb-2">
-                    Surname *
+                  <label htmlFor="name" className="block text-sm font-medium mb-2">
+                    Name *
                   </label>
                   <Input
-                    id="surname"
-                    placeholder="Enter your surname"
+                    id="name"
+                    placeholder="Enter your name"
                     value={surname}
                     onChange={(e) => setSurname(e.target.value)}
                   />
