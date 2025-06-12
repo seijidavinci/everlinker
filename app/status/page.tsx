@@ -153,7 +153,7 @@ export default function StatusPage() {
                   </label>
                   <Input
                     id="applicationId"
-                    placeholder="Enter application ID (e.g., APP-1234)"
+                    placeholder="Enter application ID (Your unique ID)"
                     value={applicationId}
                     onChange={(e) => setApplicationId(e.target.value)}
                   />
