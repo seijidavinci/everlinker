@@ -29,7 +29,7 @@ export default function AboutPage() {
             name="Drixelle L. Morales"
             role="System Administrator"
             description="Managed system infrastructure and ensured platform reliability and security."
-            imageSrc="/images/drixelle.png"
+            imageSrc="/Drixelle(fixed).png"
           />
           <TeamMemberCard
             name="Eujin Rod L. Sagun"
