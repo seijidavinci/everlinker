@@ -35,25 +35,25 @@ export default function AboutPage() {
             name="Eujin Rod L. Sagun"
             role="Developer / Project Manager"
             description="Led the development team and coordinated project milestones while contributing to development."
-            imageSrc="/images/eujin-rod.png"
+            imageSrc="/Seijster.png"
           />
           <TeamMemberCard
             name="Harold Jr. C. Alpino"
             role="UI/UX Designer"
             description="Designed the user interface and experience to ensure the platform is intuitive and accessible."
-            imageSrc="/images/harold.png"
+            imageSrc="/Harold.png"
           />
           <TeamMemberCard
             name="Nicko Adrian E. Baptista"
             role="Database Specialist"
             description="Architected the database schema and ensured efficient data management."
-            imageSrc="/images/nick.png"
+            imageSrc="/Nick.png"
           />
           <TeamMemberCard
             name="Rhomer Siegfred S. Agustin"
             role="Developer"
             description="Responsible for implementing core functionality and features of the job listing system."
-            imageSrc="/images/rhomer.png"
+            imageSrc="/Rumer.png"
           />
         </div>
       </div>
